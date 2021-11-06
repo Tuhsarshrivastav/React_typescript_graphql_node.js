@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add typeescript ts-node express cors
+
+PATH: 
+  /home/tushar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/dart/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  12.22.7
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typeescript: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:67031:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140885:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141857:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141779:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1241:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "typescript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:Tuhsarshrivastav/React_typescript_graphql_node.js.git",
+    "author": "Tusharshrivastav <ts3657@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
